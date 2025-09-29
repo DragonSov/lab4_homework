@@ -27,7 +27,7 @@ int main()
 
     condition = ((workplaceNumberA % 2 == 0 && workplaceNumberB % 2 != 0) ||
         (workplaceNumberA % 2 != 0 && workplaceNumberB % 2 == 0));
-
+    
     // Выводим результат
 
     printf("Доступ разрешен (1 - да, 0 - нет): %d\n", condition);
